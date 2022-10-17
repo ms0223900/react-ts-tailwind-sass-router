@@ -1,10 +1,11 @@
 import React, { memo } from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import '../index.scss';
 
 const Layout = () => {
     return (
-        <div>
-            <nav className={'p-10 flex justify-center'}>
+        <div className={'layout--wrapper'}>
+            <nav className={'link--wrapper p-10 flex justify-center'}>
                 <Link className={'p-4'} to={'/'}>
                     {'Home'}
                 </Link>

@@ -1,0 +1,11 @@
+.layout--wrapper {
+    background-color: #ddd;
+
+    .link--wrapper {
+        background-color: #aaa;
+    }
+
+    > main {
+        border: 4px solid #a00;
+    }
+}
