@@ -1,0 +1,34 @@
+// Phone Large
+@mixin sm() {
+    @media (min-width: 576px) {
+        @content;
+    }
+}
+
+// Tablet
+@mixin md() {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+// PC
+@mixin lg() {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+// PC Large
+@mixin xl() {
+    @media (min-width: 1280px) {
+        @content;
+    }
+}
+
+// PC Large
+@mixin xxl() {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}

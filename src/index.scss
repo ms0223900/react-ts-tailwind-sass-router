@@ -1,3 +1,5 @@
+@use 'styles/breakpoints' as *;
+
 .layout--wrapper {
     background-color: #ddd;
 
@@ -5,7 +7,16 @@
         background-color: #aaa;
     }
 
+
     > main {
         border: 4px solid #a00;
     }
+
+    @include md {
+        > main {
+            border-color: #0a0;
+        }
+
+    }
+
 }
